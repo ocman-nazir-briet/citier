@@ -8,6 +8,7 @@ states = read_json('json/state.json')
 country_data = read_json('json/countries.json')
 cities_data = read_json('json/cities.json')
 
+
 # from country to cities
 def list_cities(country_name= None):
     response_data = []
