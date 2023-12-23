@@ -1,9 +1,9 @@
-name: Publish Python distributions 📦 to PyPI
+name: Publish Citier distributions to PyPI
 
 on:
   push:
-    tags:
-     - '*'
+    branches:
+      - main
 
 jobs:
   build-n-publish:
