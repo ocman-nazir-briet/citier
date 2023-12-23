@@ -5,7 +5,7 @@ with open('citier/README.md', 'r', encoding='utf-8') as f:
 
 setup(
     name='citier',
-    version='1.3.9',
+    version='1.3.91',
     packages=find_packages(),
     install_requires=[],
     entry_points={},
